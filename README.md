@@ -5,6 +5,7 @@ Implementação das aulas do https://curso.dev do [Filipe Deschamps](https://git
 realizando o clone do https://www.tabnews.com.br
 
 disponível em: https://clonetabnews.minhaevolucao.tec.br/
+
 ## Config padrão ENV
 
 ```text
