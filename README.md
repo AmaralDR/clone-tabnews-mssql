@@ -1,14 +1,4 @@
-# Minha Evolução - Clone Tabnews
+# Minha Evolução - Clone Tabnews - Utilizando MS SQL
 
-Implementação das aulas do https://curso.dev do [Filipe Deschamps](https://github.com/filipedeschamps)
-
-realizando o clone do https://www.tabnews.com.br
-
-disponível em: https://clonetabnews.minhaevolucao.tec.br/
-
-## Config padrão ENV
-
-```text
-# NEXT_TELEMETRY_DISABLED=1
-NEXT_TELEMETRY_DEBUG=1
-```
+Implementação das aulas do [Curso](https://curso.dev) do [Filipe Deschamps](https://github.com/filipedeschamps)
+com pequenas alterações para identificar as diferenças entre a implementação com Postgres (Original) e caso fosse utilizado SQL SERVER (Este Repositório)
