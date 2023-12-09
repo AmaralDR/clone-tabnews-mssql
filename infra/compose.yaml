@@ -1,0 +1,7 @@
+services:
+  database:
+    image: "mcr.microsoft.com/mssql/server:2022-CU10-ubuntu-22.04"
+    env_file:
+      - ../.env.development
+    ports:
+      - 1433:1433
