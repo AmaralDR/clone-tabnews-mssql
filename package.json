@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "infra:start": "docker compose -f infra/compose.yaml up -d",
+    "infra:down": "docker compose -f infra/compose.yaml down",
+    "infra:stop": "docker compose -f infra/compose.yaml stop",
     "lint:check": "npx prettier --check .",
     "lint:fix": "npx prettier --write .",
     "test": "npx jest",
@@ -14,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mssql": "^10.0.1",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
